@@ -1,0 +1,470 @@
+{
+  "format": "jlc-schematic-region",
+  "version": 1,
+  "components": [
+    {
+      "designator": "C1",
+      "name": "0603B682K500NT",
+      "subPart": "0603B682K500NT.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "7db9124f6b2d2b4c"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C2",
+      "name": "0603B682K500NT",
+      "subPart": "0603B682K500NT.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "7db9124f6b2d2b4c"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C3",
+      "name": "CC0603KRX7R9BB104",
+      "subPart": "CC0603KRX7R9BB104.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5f93d112232d2025"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C4",
+      "name": "CL10A105KB8NNNC",
+      "subPart": "CL10A105KB8NNNC.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e23e05a3ed7e09a3"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C5",
+      "name": "CC0603KRX7R9BB104",
+      "subPart": "CC0603KRX7R9BB104.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5f93d112232d2025"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C6",
+      "name": "CC0603KRX7R9BB104",
+      "subPart": "CC0603KRX7R9BB104.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5f93d112232d2025"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C7",
+      "name": "GRM21BR61H106KE43L",
+      "subPart": "GRM21BR61H106KE43L.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "ce7b8688cfbbc4ab"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "C8",
+      "name": "GRM21BR61H106KE43L",
+      "subPart": "GRM21BR61H106KE43L.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "ce7b8688cfbbc4ab"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "L1",
+      "name": "CR4030-470M",
+      "subPart": "CR4030-470M.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "620736c036c882db"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "Q1",
+      "name": "MMBT3904",
+      "subPart": "MMBT3904_C2931710.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "2c57bcd46482b243"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "B",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "E",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "3",
+          "name": "C",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "R1",
+      "name": "0603WAF2202T5E",
+      "subPart": "0603WAF2202T5E.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "89924098739834a6"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "R2",
+      "name": "0603WAF1002T5E",
+      "subPart": "0603WAF1002T5E.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6d9e582f54739ebc"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "R3",
+      "name": "0603WAF1002T5E",
+      "subPart": "0603WAF1002T5E.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6d9e582f54739ebc"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "R4",
+      "name": "0603WAF1001T5E",
+      "subPart": "0603WAF1001T5E.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "1f7687521d7cffed"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "IN",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "IN",
+          "noConnected": false
+        }
+      ]
+    },
+    {
+      "designator": "U1",
+      "name": "NE5532DR",
+      "subPart": "NE5532DR.1",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5605ce859e7657aa"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT1",
+          "type": "OUT",
+          "noConnected": false
+        },
+        {
+          "number": "2",
+          "name": "IN1-",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "3",
+          "name": "IN1+",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "4",
+          "name": "VCC-/GND",
+          "type": "Undefined",
+          "noConnected": false
+        },
+        {
+          "number": "8",
+          "name": "VCC+",
+          "type": "Undefined",
+          "noConnected": false
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "VCC",
+      "scope": "external",
+      "direction": "BI",
+      "generated": false,
+      "members": [
+        "L1.1",
+        "R1.1",
+        "C5.1",
+        "C7.1",
+        "U1.8"
+      ]
+    },
+    {
+      "name": "-5V",
+      "scope": "external",
+      "direction": "BI",
+      "generated": false,
+      "members": [
+        "C6.1",
+        "C8.1",
+        "U1.4"
+      ]
+    },
+    {
+      "name": "GND",
+      "scope": "external",
+      "direction": "BI",
+      "generated": false,
+      "members": [
+        "R2.2",
+        "C3.2",
+        "C2.2",
+        "R4.2",
+        "R3.2",
+        "C5.2",
+        "C6.2",
+        "C7.2",
+        "C8.2"
+      ]
+    },
+    {
+      "name": "OSC_COLLECTOR",
+      "scope": "internal",
+      "generated": false,
+      "members": [
+        "L1.2",
+        "Q1.3",
+        "C1.1",
+        "C4.1"
+      ]
+    },
+    {
+      "name": "OSC_EMITTER",
+      "scope": "internal",
+      "generated": false,
+      "members": [
+        "Q1.2",
+        "C1.2",
+        "C2.1",
+        "R4.1"
+      ]
+    },
+    {
+      "name": "OSC_BASE",
+      "scope": "internal",
+      "generated": false,
+      "members": [
+        "Q1.1",
+        "R1.2",
+        "R2.1",
+        "C3.1"
+      ]
+    },
+    {
+      "name": "OSC_BUF_IN",
+      "scope": "internal",
+      "generated": false,
+      "members": [
+        "C4.2",
+        "R3.1",
+        "U1.3"
+      ]
+    },
+    {
+      "name": "OUT",
+      "scope": "internal",
+      "generated": false,
+      "members": [
+        "U1.1",
+        "U1.2"
+      ]
+    }
+  ]
+}

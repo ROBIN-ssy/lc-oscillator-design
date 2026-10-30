@@ -1,0 +1,59 @@
+* Colpitts_1MHz.cir -- 共基极考毕兹振荡器 (single +5V)
+* 依据: analysis/LC_Osc_Feasibility_and_Schematic.md 第 3 节「修正后原理图」
+*       与第 4 节「设计验算」的取值
+*
+* 目标 f0 ~= 1.04 MHz
+*    Cser = C1*C2/(C1+C2) = 1n*1n/(1n+1n) = 0.5nF
+*    f0   = 1/(2*pi*sqrt(L1*Cser)) = 1/(2*pi*sqrt(47u*0.5n)) ~= 1.04MHz
+*
+* 用法:
+*    LTspice : File -> Open -> 选本文件 -> Run
+*    ngspice : ngspice -b Colpitts_1MHz.cir
+*    批处理  : LTspice.exe -b Colpitts_1MHz.cir
+*
+* 看 V(out) 应看到 ~1.04MHz 正弦起振，几百 us 内幅度增长后限幅稳定。
+* 若不起振：把文件末尾 .ic V(c)=4 那行的注释去掉，给一个初始扰动。
+
+VCC vcc 0 5
+
+* --- 基极偏置：VB ~= 5*10/37 ~= 1.35V ---
+R11 vcc b 27k
+R12 b 0 10k
+* 基极交流接地（共基接法）
+Cb  b 0 100n
+
+* --- 振荡管 ---
+Q1  c b e 2N3904
+
+* --- 谐振回路：L1 兼作集电极馈电 ---
+L1  vcc c 47u
+* 反馈分压：C1 接 C-E，C2 接 E-GND，E 即反馈节点
+C1  c e 1n
+C2  e 0 1n
+
+* --- 发射极直流偏置（注意：无旁路电容，否则反馈被短路 -> 停振）---
+Re  e 0 1k
+
+* --- 输出去耦 ---
+Cout c out 100n
+Rload out 0 10k
+
+* --- 电源去耦 ---
+Cdec vcc 0 100n
+
+* --- 模型: 2N3904 (ST) ---
+.model 2N3904 NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++ Ise=6.734f Ikf=.06678 Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++ Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vjc=.75
++ Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+
+.options plotwinsize=0
+.tran 0 3m 0 0.1u startup
+
+* 只保存关心的节点，避免生成大文件
+.save V(out) V(c) V(e)
+
+* 若不起振，取消下面这行的注释给一个初始扰动：
+* .ic V(c)=4
+
+.end

@@ -1,0 +1,16 @@
+# ---- LTspice 仿真输出（可重跑生成）----
+*.raw
+*.op.raw
+*.fft
+*.imp
+*.net
+Colpitts_1MHz.log
+orig.*
+tmp_*
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
